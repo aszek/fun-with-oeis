@@ -9,3 +9,4 @@ Fun with OEIS is a series of short texts exploring bits and pieces of the Online
 3. [Russell's paradox](episodes/3.md)
 4. [Only two terms and Carmichael's theorem](episodes/4.md)
 5. [Which Polish city?](episodes/5.md)
+6. [Only ones](episodes/6.md)
