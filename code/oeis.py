@@ -9,7 +9,7 @@
 import urllib2, json, time
 
 class OEIS(object):
-    def __init__(self, fname = 'stripped'):
+    def __init__(self, fname = 'stripped', pause = 20):
         seqs = {}
 
         try:
@@ -23,6 +23,7 @@ class OEIS(object):
             print("Could not read the local file")
 
         self.seqs = seqs
+        self._pause_ = pause
 
     def searchID(self, id):
         return json.loads(urllib2.urlopen('https://oeis.org/search?fmt=json&q=id:{0}'.format(id)).read())['results']
@@ -40,4 +41,4 @@ class OEIS(object):
         return self.searchID(id)[0]['name']
 
     def pause(self):
-        time.sleep(20)
+        time.sleep(self._pause_)
