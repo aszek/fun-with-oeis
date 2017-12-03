@@ -12,3 +12,4 @@ Fun with OEIS is a series of short texts exploring bits and pieces of the Online
 6. [Only ones](episodes/6.md)
 7. [Some math keywords](episodes/7.md)
 8. [Uendelighedsrækken](episodes/8.md)
+9. [Stockhausen's three repetitions](episodes/9.md)
