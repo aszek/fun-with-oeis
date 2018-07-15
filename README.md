@@ -14,3 +14,4 @@ Fun with OEIS is a series of short texts exploring bits and pieces of the Online
 8. [Uendelighedsrækken](episodes/8.md)
 9. [Stockhausen's three repetitions](episodes/9.md)
 10. [Lots of fun](episodes/10.md)
+11. [Fun with XKCD](episodes/11.md)
